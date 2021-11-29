@@ -3,7 +3,7 @@
         <form class="flex flex-col items-center" @submit.prevent= "login">
             <div class="flex flex-col user">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="userName">User Name</label>
-                <input type="text" class="bshadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" v-model= "userName" id="userName" />
+                <input type="text" class="bshadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" v-model= "username" id="username" />
                 
             </div>
             <div class="flex flex-col mt-10">

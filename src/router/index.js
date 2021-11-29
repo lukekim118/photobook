@@ -1,3 +1,4 @@
+import { SignUp } from '@aws-amplify/ui-vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
@@ -9,6 +10,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: "/signup",
+    name: "SignUpPage",
+    component: SignUp
   },
   {
     path: '/about',
